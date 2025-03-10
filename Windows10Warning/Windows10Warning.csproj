@@ -64,7 +64,7 @@
     <AssemblyOriginatorKeyFile>Windows10Warning_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>windows10warn.ico</ApplicationIcon>
+    <ApplicationIcon>bin\Release\windows10warn.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -131,9 +131,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Release\config.json" />
     <None Include="bin\Release\Windows10Warning.exe.config" />
     <None Include="packages.config" />
-    <None Include="windows10sched.ps1" />
+    <None Include="bin\Release\windows10sched.ps1" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,9 +165,10 @@
     <Folder Include="bin\Debug\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Release\logo.png" />
     <Content Include="bin\Release\Windows10Warning.exe" />
     <Content Include="bin\Release\Windows10Warning.pdb" />
-    <Content Include="windows10warn.ico" />
+    <Content Include="bin\Release\windows10warn.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
