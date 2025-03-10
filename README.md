@@ -25,6 +25,7 @@ This program is a Windows Forms application that notifies users about the upcomi
 2. User Options:
 	* Click “Schedule an Upgrade” → Opens the configured upgrade scheduling URL.
 	* Click “Dismiss” → Saves today’s date to prevent the notification from showing again until the next day.
+		 * Dismiss file will be placed → `C:\Users\PROFILE\AppData\Roaming`
 3. Reopens Every 30 Minutes (via Scheduled Task)
 	* If the notification was dismissed, it won’t appear again until the next day.
 	* If not dismissed, it continues reminding users every 30 minutes (or as configured).
