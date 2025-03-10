@@ -35,14 +35,18 @@ This program is a Windows Forms application that notifies users about the upcomi
 ```
 * Deployable via Scheduled Task to run on login and every 30 minutes.
 
-Deployment
-	•	The .exe should be placed in the All Users Startup Folder (C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\).
-	•	A PowerShell script can create a Scheduled Task to launch the app at login and every 30 minutes.
+## Deployment
+* The .exe should be placed in the All Users Startup Folder (C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\).
+* The config.json file will need to be located next to the .exe
+* A PowerShell script can create a Scheduled Task to launch the app at login and every 30 minutes, included in the repository, OR you can use GPO.
 
 ### Why Use This Program?
 ✅ Ensures users are reminded about the Windows 10 EOL deadline.
+
 ✅ Prevents notification fatigue by allowing daily dismissals.
+
 ✅ Automates IT communication with minimal intervention.
+
 ✅ Simple config-based customization for different environments.
 
 ### Let me know if you need anything else for your README! 🚀
