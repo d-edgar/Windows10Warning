@@ -1,5 +1,8 @@
 # Windows10Warning
 
+> [!NOTE]
+> Donwload the latest release of this via the button below, ensure you copy the config.json file as well as create a logo.png (595px, 254px) in the same directory as the download. Look at the documentation below to ensure you have configured things correctly.
+
 ## Overview
 
 This program is a Windows Forms application that notifies users about the upcoming end-of-life for Windows 10. The notification prompts users to take action, either by upgrading their system or scheduling a consultation with IT.
@@ -25,6 +28,8 @@ This program is a Windows Forms application that notifies users about the upcomi
 	* If not dismissed, it continues reminding users every 30 minutes (or as configured).
 
 ## Customization
+> [!IMPORTANT]
+> 595px, 254px - Current size of the logo!
 * config.json allows easy customization:
 ```
 {
