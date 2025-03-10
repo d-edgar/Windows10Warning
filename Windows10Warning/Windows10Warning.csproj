@@ -131,6 +131,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Release\Windows10Warning.exe.config" />
     <None Include="packages.config" />
     <None Include="windows10sched.ps1" />
     <None Include="Properties\Settings.settings">
@@ -163,6 +164,8 @@
     <Folder Include="bin\Debug\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Release\Windows10Warning.exe" />
+    <Content Include="bin\Release\Windows10Warning.pdb" />
     <Content Include="windows10warn.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
