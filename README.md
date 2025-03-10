@@ -49,4 +49,4 @@ This program is a Windows Forms application that notifies users about the upcomi
 
 ✅ Simple config-based customization for different environments.
 
-### Let me know if you need anything else for your README! 🚀
+### Let me know if you need anything else described here and I'll be sure to add it! 🚀
