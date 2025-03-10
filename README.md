@@ -1,7 +1,7 @@
 # Windows10Warning
 
 > [!NOTE]
-> Donwload the latest release of this via the button below, ensure you copy the config.json file as well as create a logo.png (595px, 254px) in the same directory as the download. Look at the documentation below to ensure you have configured things correctly.
+> Download the latest release using the button below. Make sure to copy the config.json file and create a logo.png (595px × 254px) in the same directory as the download. Refer to the documentation below to ensure everything is configured correctly.
 
 https://github.com/d-edgar/Windows10Warning/releases/latest
 
