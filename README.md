@@ -5,7 +5,9 @@
 This program is a Windows Forms application that notifies users about the upcoming end-of-life for Windows 10. The notification prompts users to take action, either by upgrading their system or scheduling a consultation with IT.
 
 Key Features
+
 	•	🚀 Persistent Notification: Pops up a warning message reminding users to upgrade Windows 10.
+ 
 	•	🔗 Actionable Button: Opens a customizable upgrade scheduling URL in the user’s default browser.
 	•	❌ Dismiss for the Day: Users can click “Dismiss”, and the notification will not reappear until the next day.
 	•	📁 Configuration Support: Uses a config.json file to define the title, URL, and logo dynamically.
