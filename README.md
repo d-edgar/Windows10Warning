@@ -4,7 +4,7 @@
 
 This program is a Windows Forms application that notifies users about the upcoming end-of-life for Windows 10. The notification prompts users to take action, either by upgrading their system or scheduling a consultation with IT.
 
-Key Features
+## Key Features
 	• 🚀 Persistent Notification: Pops up a warning message reminding users to upgrade Windows 10.
 	• 🔗 Actionable Button: Opens a customizable upgrade scheduling URL in the user’s default browser.
 	• ❌ Dismiss for the Day: Users can click “Dismiss”, and the notification will not reappear until the next day.
@@ -12,7 +12,7 @@ Key Features
 	• 🔍 Auto-Closing Logic: If dismissed, the app automatically closes on launch without showing the notification.
 	• 🖼 Custom Branding: Displays an organization-specific logo from a local file.
 
-How It Works
+## How It Works
 	1. On Startup:
 		• The app checks if a dismissal file exists (Win10NotificationDismissed.txt in AppData).
 		• If the file contains today’s date, the app closes immediately.
@@ -24,7 +24,7 @@ How It Works
 		• If the notification was dismissed, it won’t appear again until the next day.
 		• If not dismissed, it continues reminding users every 30 minutes (or as configured).
 
-Customization
+## Customization
 	• config.json allows easy customization:
 '''
 {
