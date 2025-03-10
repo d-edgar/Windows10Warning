@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows10Warning", "Windows10Warning\Windows10Warning.csproj", "{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}"
 EndProject
@@ -11,8 +11,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C4F01F-0A35-4DE9-A24C-4B8A81C6811E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
