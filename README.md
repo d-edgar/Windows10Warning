@@ -25,25 +25,24 @@ This program is a Windows Forms application that notifies users about the upcomi
 	* If not dismissed, it continues reminding users every 30 minutes (or as configured).
 
 ## Customization
-	• config.json allows easy customization:
-'''
+* config.json allows easy customization:
+```
 {
     "FormTitle": "Windows 10 Upgrade Required",
     "RedirectUrl": "https://your-it-support-portal.com",
     "LogoPath": "logo.png"
 }
-'''
-	• Deployable via Scheduled Task to run on login and every 30 minutes.
+```
+* Deployable via Scheduled Task to run on login and every 30 minutes.
 
 Deployment
 	•	The .exe should be placed in the All Users Startup Folder (C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\).
 	•	A PowerShell script can create a Scheduled Task to launch the app at login and every 30 minutes.
 
-🔹 Why Use This Program?
-
+### Why Use This Program?
 ✅ Ensures users are reminded about the Windows 10 EOL deadline.
 ✅ Prevents notification fatigue by allowing daily dismissals.
 ✅ Automates IT communication with minimal intervention.
 ✅ Simple config-based customization for different environments.
 
-Let me know if you need anything else for your README! 🚀
+### Let me know if you need anything else for your README! 🚀
