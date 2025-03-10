@@ -243,5 +243,21 @@ namespace Windows10Warning
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://learn.microsoft.com/en-us/lifecycle/announcements/october-14-2025-products-end-of-support",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Failed to open the link: {ex.Message}");
+            }
+        }
     }
 }
