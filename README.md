@@ -25,7 +25,8 @@ This program is a Windows Forms application that notifies users about the upcomi
 	* If not dismissed, it continues reminding users every 30 minutes (or as configured).
 
 ## Customization
-*595px, 254px - Current size of the logo*
+> [!IMPORTANT]
+> 595px, 254px - Current size of the logo!
 * config.json allows easy customization:
 ```
 {
